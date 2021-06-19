@@ -1,0 +1,150 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2650000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que possuo uma conta no site da Trios de Capacitação \"https://triosdecapacitacao.eadplataforma.com/login/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://triosdecapacitacao.eadplataforma.com/login/\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.GenericSteps.quePossuoUmaContaNoSiteDaTriosDeCapacitacao(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-19T20:05:59.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4532000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.GenericSteps.abreNavegador()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validar Acesse sua conta.",
+        "description": "",
+        "id": "login-no-site-da-trios-de-capacitação;validar-acesse-sua-conta.",
+        "after": [
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.GenericSteps.fechaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho as informações com E-mail \"jardounifanor@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jardounifanor@gmail.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.LoginSteps.preenchoAsInformaçõesComEMail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "com Senha \"1996$jrd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1996$jrd\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.LoginSteps.comSenha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2315000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "seleciono o Entrar",
+            "match": {
+              "location": "steps.LoginSteps.selecionoOEntrar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "o sistema deve redirecionar para a página inicial",
+            "match": {
+              "location": "steps.LoginSteps.oSistemaDeveRedirecionarParaAPáginaInicial()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressivo"
+          },
+          {
+            "name": "@acessar"
+          }
+        ]
+      }
+    ],
+    "name": "Login no site da Trios de Capacitação",
+    "description": "",
+    "id": "login-no-site-da-trios-de-capacitação",
+    "keyword": "Feature",
+    "uri": "file:features/login.feature",
+    "tags": [
+      {
+        "name": "@regressivo",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
